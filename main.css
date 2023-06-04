@@ -514,13 +514,20 @@ nav .nav-menu .menu:hover{
 }
 
 .circle-up:hover svg{
-    animation: arrowUp .6s forwards cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
-    -webkit-animation: arrowUp .6s forwards cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    animation: arrowUp 1.1s forwards cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    -webkit-animation: arrowUp 1.1s forwards cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
 }
 
 @keyframes arrowUp {
     from 
-    {margin-bottom: 0px;}
+    {
+        margin-bottom: -2rem;
+        opacity: 0;
+    }
 
-    to {margin-bottom: .5rem;}
+    to 
+    {
+        margin-bottom: 2rem;
+        opacity: 1;
+    }
   }
