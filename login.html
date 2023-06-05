@@ -10,6 +10,19 @@
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Document</title>
+    <script>
+        function login(){
+            var user = document.getElementById("username").value;
+            var pass = document.getElementById("password").value;
+
+            if (user === "admin" && pass === "admin"){
+                window.open("main.html");
+            } else{
+                alert("data tidak sesuai")
+            }
+
+        }
+    </script>
 </head>
 <body>
 
@@ -42,9 +55,9 @@
                     <!-- <a class="register" href="register.html">
                         <span class="regist">Register</span>
                     </a> -->
-                    <a class="login" href="main.html">
+                    <button class="login" onclick="login()">
                         <span class="log">Login</span>
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>
