@@ -77,9 +77,6 @@ body::-webkit-scrollbar {
   position: relative;
 }
 
-.log-area .log-title{
-
-}
 
 .log-area .log-title span{
     font-size: 3rem;
