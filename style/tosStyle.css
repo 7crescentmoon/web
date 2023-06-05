@@ -136,7 +136,26 @@ nav .nav-menu .menu:hover{
 }
 
 .height{
-    height: 11vh;
+    height: 13vh;
+}
+
+.tos-title{
+    position: relative;
+}
+
+.tos-title::after{
+    content: '';
+    position: absolute;
+    width: 10rem;
+    background-color: white;
+    height: 1px;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 .container .tos,.title{

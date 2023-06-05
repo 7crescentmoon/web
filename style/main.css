@@ -28,13 +28,15 @@ body::-webkit-scrollbar {
     */background-size: cover;
     overflow: hidden;
    
-    filter: blur(5px) brightness(90%);
-    -webkit-filter: blur(5px) brightness(90%);
+    /* filter: blur(5px) brightness(90%);
+    -webkit-filter: blur(5px) brightness(90%); */
 }
 
 .main {
-    background-color: #dbead9;
-    /* background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)); */
+    /*background-color: #5e6c4e;
+    *//*background: ;
+    */ background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('/asset/img/bg.jpg');
+    background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 79%, 0 74%);
 }
 
@@ -144,9 +146,10 @@ body::-webkit-scrollbar {
     height: 80vh;
     width: 90vw;
     clip-path: none;
-    filter: brightness(60%);
-    -webkit-filter: brightness(60%);
-    object-fit: cover;
+    filter: brightness(90%);
+    /*-webkit-filter: brightness(60%);
+    */object-fit: cover;
+    -webkit-filter: brightness(90%);
 }
 
 .nav-slider-m{
