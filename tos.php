@@ -16,14 +16,14 @@
     <div class="navbar" >
         <nav>
             <div class="nav-logo">
-                <a href="index.html">
+                <a href="index.php">
                     <h1>Pesonaindo</h1>
                 </a>
             </div>
     
             <div class="nav-menu">
               <ul>
-                <a class="menu home" href="main.html">
+                <a class="menu home" href="main.php">
                   <li>Home</li>
                 </a>
                 <a class="menu about" href="">
@@ -48,7 +48,8 @@
   <!-- Navbar end -->
 
 
-  <div id="tos" class="height"></div>
+  <div id="tos baground-img" class="height"></div>
+  <img src="/asset/img/bromo.jpg" alt="">
     <div class="container">
         <h1 class="tos-title" style="text-align: center;margin-bottom : 1.5rem;">Terms and Conditions of Use</h1>
 

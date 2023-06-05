@@ -38,7 +38,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 
       <div class="nav-menu">
         <ul>
-          <a class="menu home" href="">
+          <a class="menu home" href="main.php">
             <li>Home</li>
           </a>
           <a class="menu about" href="">
