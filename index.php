@@ -54,7 +54,7 @@
                     maxime excepturi est autem numquam eveniet, veritatis nulla blanditiis minus quasi a voluptatibus nihil inventore id?</d>
             </div>
 
-            <a class="button" href="main.php">
+            <a class="button" href="login.php">
                 <button>
                     see more
                     <div class="arrow-wrapper">

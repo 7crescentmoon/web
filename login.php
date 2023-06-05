@@ -15,7 +15,7 @@
             var pass = document.getElementById("password").value;
 
             if (user === "admin" && pass === "admin"){
-                window.open("main.html");
+                window.open("main.php");
             } else{
                 alert("data tidak sesuai")
             }
