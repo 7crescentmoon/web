@@ -22,10 +22,10 @@
     
             <div class="nav-menu">
               <ul>
-                <a class="menu home" href="">
+                <a class="menu home" href="#slider">
                   <li>Home</li>
                 </a>
-                <a class="menu about" href="">
+                <a class="menu about" href="#height">
                   <li>About</li>
                 </a>
                 <a class="menu tour" href="tour.php">
@@ -145,8 +145,45 @@
 
 
      <!--page3 start  -->
-    <div class="content-tour">
-      <!-- <img src="asset\img\bali.jpg" alt=""> -->
+
+      
+     <div id="height">
+
+     </div>
+
+    <div class="about-container" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('asset/img/Labuan Bajo.jpg');background-size: cover;">
+      <div class="sub-container">
+
+        <div class="content wrapper1">
+          <div class="content-left">
+            <img src="asset\img\Goa Jomblang.jpg" alt="">
+          </div>
+          <div class="content-right">
+            <p><span>Selamat datang di Pesonaindo</span> portal informasi wisata terpercaya yang didedikasikan untuk memperkenalkan keindahan alam dan budaya yang kaya di Indonesia. Kami berkomitmen untuk menjadi sumber daya terbaik bagi wisatawan lokal maupun internasional yang ingin menjelajahi pesona negeri ini.</p>
+          </div>
+        </div>
+
+        <div class="content wrapper2">
+          <div class="content-right">
+            <p>Misi kami adalah untuk menginspirasi dan membantu wisatawan menemukan tempat-tempat menakjubkan yang ada di Indonesia. Melalui website kami, kami menyajikan informasi terperinci tentang berbagai tujuan wisata yang menarik, mulai dari destinasi populer hingga tempat tersembunyi yang jarang diketahui. Kami berusaha memberikan panduan yang komprehensif dengan informasi terbaru tentang atraksi wisata, aktivitas yang dapat dilakukan, akomodasi, restoran, dan transportasi di setiap lokasi. Semua informasi disusun dengan hati-hati untuk memastikan pengalaman wisata Anda menjadi yang terbaik.</p>
+          </div>
+          <div class="content-left">
+            <img src="asset\img\Nusa Penida.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="content wrapper3">
+          <div class="content-left">
+            <img src="asset\img\Danau Toba.jpg" alt="">
+          </div>
+          <div class="content-right">
+            <p> Terakhir, kami ingin berterima kasih kepada Anda, pengunjung setia kami, yang telah membantu kami tumbuh menjadi salah satu sumber informasi wisata terkemuka di Indonesia. Kami senang dapat berbagi keindahan Indonesia dengan Anda, dan kami berharap dapat terus menginspirasi Anda dalam menjelajahi pesona-pesona baru di negeri ini.
+            Selamat menjelajahi dan selamat liburan di Indonesia! <br><br>
+            <i>Tim PesonaIndo</i></p>
+          </div>
+        </div>
+
+      </div>
     </div>
     <!--page3 start end -->
 

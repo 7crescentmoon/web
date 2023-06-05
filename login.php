@@ -25,7 +25,7 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container" style="background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url('asset/img/bg.jpg');background-size: cover;">
         <span class="logo"><i>Pesonaindo</i></span>
 
         <div class="content-login">

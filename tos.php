@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Document</title>
   </head>
-  <body>
+  <body style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('asset/img/bromo.jpg');background-size: cover;">
     
-    <!-- Navbar start -->
-    <div class="navbar" >
+        <!-- Navbar start -->
+        <div class="navbar">
         <nav>
             <div class="nav-logo">
-                <a href="index.php">
+                <a href="">
                     <h1>Pesonaindo</h1>
                 </a>
             </div>
@@ -29,7 +29,7 @@
                 <a class="menu about" href="">
                   <li>About</li>
                 </a>
-                <a class="menu tour" href="">
+                <a class="menu tour" href="tour.php">
                   <li>Tour</li>
                 </a>
                 <a class="menu contact" href="">
@@ -41,6 +41,7 @@
             <div class="profile">
               <!-- <span>Pain</span> -->
               <img src="asset\img\bromo.jpg" alt="" />
+              <a href="index.php"><i class="fa-solid fa-door-open fa-xl" style="color: #ffffff;"></i></a>
             </div>
           </nav>  
     </div>
