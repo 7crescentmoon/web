@@ -124,7 +124,7 @@ nav .nav-menu .menu:hover{
 
 .container{
     /* height: 100vh; */
-    background-color: aqua;
+    background-color: #e8e8e8;
     padding: 1.2rem 1.2rem;
     display: flex;
     gap: 1rem;
@@ -137,7 +137,7 @@ nav .nav-menu .menu:hover{
 .heigth{
     height: 10vh;
     width: 2px;
-    /* background-color: rgb(160, 183, 13); */
+    background-color: rgba(000, 000, 000,0.1);
 }
 
 .card{
@@ -146,13 +146,18 @@ nav .nav-menu .menu:hover{
     background-color: beige;
     display: flex;
     overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .wrapper-left{
     display: flex;
     width: 55%;
     flex-direction: column;
-    background-color: rgb(177, 208, 2);
+    background-color: rgba(000, 000, 000,0.1);
     position: relative;
 
 }
@@ -191,6 +196,7 @@ nav .nav-menu .menu:hover{
     text-align: justify;
     padding: .3rem;
     margin-top: 1.2rem;
+    font-size: .9rem;
 }
 
 .location{
