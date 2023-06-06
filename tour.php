@@ -18,9 +18,7 @@ while ($row = mysqli_fetch_assoc($result)) {
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style\tour.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Kaushan+Script&family=Montserrat&family=Roboto:ital@1&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Kaushan+Script&family=Montserrat&family=Roboto:ital@1&display=swap&family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <title>Document</title>
 </head>
@@ -56,7 +54,7 @@ while ($row = mysqli_fetch_assoc($result)) {
       <div class="profile">
         <!-- <span>Pain</span> -->
         <img src="asset\img\bromo.jpg" alt="" />
-        <a href="index.html"><i class="fa-solid fa-door-open fa-xl" style="color: #ffffff;"></i></a>
+        <a href="index.php"><i class="fa-solid fa-door-open fa-xl" style="color: #000;"></i></a>
       </div>
     </nav>
   </div>
@@ -64,7 +62,7 @@ while ($row = mysqli_fetch_assoc($result)) {
   <!-- Navbar end -->
 
   <div id="heigth"></div>
-  <div class="container" >
+  <div class="container" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('asset/img/bg.jpg');object-fit:cover;">
 
     <?php foreach ($result as $res): ?>
       <div class="card">

@@ -6,22 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style\login.css">
     <link rel="stylesheet" href="fontawesome-free-6.4.0-web\css\all.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Kaushan+Script&family=Montserrat&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Kaushan+Script&family=Montserrat&family=Roboto:ital@1&display=swap&family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Document</title>
-    <script>
-        function login(){
-            var user = document.getElementById("username").value;
-            var pass = document.getElementById("password").value;
-
-            if (user === "admin" && pass === "admin"){
-                window.open("main.php");
-            } else{
-                alert("data tidak sesuai")
-            }
-
-        }
-    </script>
 </head>
 <body>
 
@@ -51,9 +38,6 @@
                     </div>
                 </div>
                 <div class="btn-area">
-                    <!-- <a class="register" href="register.html">
-                        <span class="regist">Register</span>
-                    </a> -->
                     <button class="login" onclick="login()">
                         <span class="log">Login</span>
                     </button>
@@ -61,6 +45,9 @@
             </div>
         </div>
     </div>
-    
+
+    <script src="script js\script.js">
+        login()
+    </script>
 </body>
 </html>

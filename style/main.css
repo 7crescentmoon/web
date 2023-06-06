@@ -248,7 +248,8 @@ body::-webkit-scrollbar {
     right: 0;
     left: 0;
     z-index: 99;
-    background-color:  rgba(25, 24, 37, 0.5);
+    background-color:  rgba(232, 232, 232, 0.9);
+    /* background-color: #e8e8e8; */
 }
 
 nav{
@@ -276,12 +277,15 @@ nav .nav-menu ul{
 }
 
 nav .nav-menu ul li{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.39);
 }
 
 nav .nav-logo a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.39);
+    font-weight: 300;
     
 }
 
@@ -325,14 +329,15 @@ nav .nav-menu .menu:hover{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+ 
 }
 
-.profile span{
+/* .profile span{
     color: white;
     font-family: 'Montserrat';
     font-weight: bold;
     letter-spacing: 1px;
-}
+} */
 
 .profile img{
     width: 40px;
@@ -343,6 +348,7 @@ nav .nav-menu .menu:hover{
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     background-size: cover;
+    border: 2px solid black;
 }
 /* end */
 

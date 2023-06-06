@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style\tosStyle.css" />
     <link rel="stylesheet" href="fontawesome-free-6.4.0-web\css\all.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Kaushan+Script&family=Montserrat&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Kaushan+Script&family=Montserrat&family=Roboto:ital@1&display=swap&family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Document</title>
   </head>
@@ -41,7 +41,7 @@
             <div class="profile">
               <!-- <span>Pain</span> -->
               <img src="asset\img\bromo.jpg" alt="" />
-              <a href="index.php"><i class="fa-solid fa-door-open fa-xl" style="color: #ffffff;"></i></a>
+              <a href="index.php"><i class="fa-solid fa-door-open fa-xl" style="color: #000;"></i></a>
             </div>
           </nav>  
     </div>
@@ -49,7 +49,7 @@
   <!-- Navbar end -->
 
 
-  <div id="tos baground-img" class="height"></div>
+  <div id="tos" class="height"></div>
   <img src="/asset/img/bromo.jpg" alt="">
     <div class="container">
         <h1 class="tos-title" style="text-align: center;margin-bottom : 1.5rem;">Terms and Conditions of Use</h1>
@@ -151,7 +151,7 @@
     </div>
     
     <div id="footer-bottom">
-      <a href="#tos"><div class="circle-up">
+      <a href="#"><div class="circle-up">
         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"/></svg>
       </div>
     </a>
