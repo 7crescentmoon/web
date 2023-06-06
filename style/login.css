@@ -78,7 +78,7 @@ body::-webkit-scrollbar {
 
 .log-area .log-title span{
     font-size: 3rem;
-    color: #0d0c22;
+    color: #000000;
     font-weight: 300;
     letter-spacing: .5rem;
 
@@ -149,7 +149,7 @@ input:hover {
 
 .content-login .logo-pesona span{
     font-size: 3.5rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 300;
 }
 

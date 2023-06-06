@@ -29,75 +29,70 @@
     <span class="wel">WELCOME</span>
     <span class="to">to</span>
     <span class="pes">Pesonaindo</span>
-    
 
   </div>
 
-  <div class="
-  
-  
-  
-  " >
+  <div class="">
 
-  <div class="slider-wrapper">
-    <div class="slider">
-      <div class="slides">
+    <div class="slider-wrapper">
+      <div class="slider">
+        <div class="slides">
 
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
-        <input type="radio" name="radio-btn" id="radio4">
-        <input type="radio" name="radio-btn" id="radio5">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <input type="radio" name="radio-btn" id="radio5">
 
-        <div class="slide first">
-          <img src="asset\img\rinjani.jpg" alt="">
-          <span class="title">Gn.Rinjani</span>
-          <span class="info">- Nusa Tenggara Barat</span>
+          <div class="slide first">
+            <img src="asset\img\rinjani.jpg" alt="">
+            <span class="title">Gn.Rinjani</span>
+            <span class="info">- Nusa Tenggara Barat</span>
+          </div>
+          <div class="slide ">
+            <img src="asset\img\toba.jpg" alt="">
+            <span class="title">Danau Toba</span>
+            <span class="info">- Sumatra Utara, Medan</span>
+          </div>
+          <div class="slide ">
+            <img src="asset\img\bromo.jpg" alt="">
+            <span class="title">Gn.Bromo</span>
+            <span class="info">- Jawa Timur, Surabaya</span>
+          </div>
+          <div class="slide ">
+            <img src="asset\img\pantaiKelingking.jpg" alt="">
+            <span class="title">Pantai Kelingking</span>
+            <span class="info">- Nusa Penida, Bali</span>
+          </div>
+          <div class="slide ">
+            <img src="asset\img\tangkubanPerahu .jpg" alt="">
+            <span class="title">Tangkuban Perahu</span>
+            <span class="info">- Jawa Barat, Bandung</span>
+          </div>
+
+          <div class="nav-slider-a" id="rec">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+            <div class="auto-btn5"></div>
+          </div>
+
         </div>
-        <div class="slide ">
-          <img src="asset\img\toba.jpg" alt="">
-          <span class="title">Danau Toba</span>
-          <span class="info">- Sumatra Utara, Medan</span>
-        </div>
-        <div class="slide ">
-          <img src="asset\img\bromo.jpg" alt="">
-          <span class="title">Gn.Bromo</span>
-          <span class="info">- Jawa Timur, Surabaya</span>
-        </div>
-        <div class="slide ">
-          <img src="asset\img\pantaiKelingking.jpg" alt="">
-          <span class="title">Pantai Kelingking</span>
-          <span class="info">- Nusa Penida, Bali</span>
-        </div>
-        <div class="slide ">
-          <img src="asset\img\tangkubanPerahu .jpg" alt="">
-          <span class="title">Tangkuban Perahu</span>
-          <span class="info">- Jawa Barat, Bandung</span>
+        <div class="nav-slider-m">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+          <label for="radio5" class="manual-btn"></label>
         </div>
 
-        <div class="nav-slider-a" id="rec">
-          <div class="auto-btn1"></div>
-          <div class="auto-btn2"></div>
-          <div class="auto-btn3"></div>
-          <div class="auto-btn4"></div>
-          <div class="auto-btn5"></div>
-        </div>
-
-      </div>
-      <div class="nav-slider-m">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-        <label for="radio4" class="manual-btn"></label>
-        <label for="radio5" class="manual-btn"></label>
       </div>
 
     </div>
 
-    </div>
-
-    <div class="title-rec" >
-      <span><i>Recommend</i></span>
+    <div class="title-rec">
+      <span>Travel recommendations</span>
     </div>
 
     <div class="card-wrapper">
@@ -107,7 +102,7 @@
         </div> -->
         <div class="list-rec">
           <h2 class="title-island">P.Sumatera</h2>
-          <ul class="list" >
+          <ul class="list">
             <li>Pantai Lhoknga (Aceh)</li>
             <li>Danau Toba (Sumatera Utara)</li>
             <li>Lembah Harau (Sumatera Barat)</li>

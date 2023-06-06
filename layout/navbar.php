@@ -44,7 +44,7 @@
                 <a class="menu tour" href="tour.php">
                     <li>Tour</li>
                 </a>
-                <a class="menu contact" href="">
+                <a class="menu contact" href="contact.php">
                     <li>Contact</li>
                 </a>
             </ul>

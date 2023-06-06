@@ -98,6 +98,8 @@
         $file = "#tos";
       }elseif(explode("/", $_SERVER['REQUEST_URI'])[2] == "faq.php"){
         $file = "#faq";
+      }elseif(explode("/", $_SERVER['REQUEST_URI'])[2] == "contact.php"){
+        $file = "#con";
       }
 ?>
 
