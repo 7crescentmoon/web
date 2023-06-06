@@ -17,24 +17,6 @@
                 <h1>Pesonaindo</h1>
         </div>
 
-        <!-- <div class="nav-menu">
-            <ul>
-                <a class="menu home" href="">
-                    <li>Home</li>
-                </a>
-                <a class="menu about" href="">
-                    <li>About</li>
-                </a>
-                <a class="menu tour" href="">
-                    <li>Tour</li>
-                </a>
-                <a class="menu contact" href="">
-                    <li>Contact</li>
-                </a>
-            </ul>
-        </div> -->
-
-
         <div class="log-regist">
             <a class="register" href="register.php">
                 <span class="regist">Register</span>
@@ -50,8 +32,7 @@
             <div class="content-left">
                 <span class="welcome">Hi, Welcome to <span>Pesonaindo</span></span>
                 <br>
-                <div class="Short-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eum quibusdam cumque vero distinctio 
-                    maxime excepturi est autem numquam eveniet, veritatis nulla blanditiis minus quasi a voluptatibus nihil inventore id?</d>
+                <div class="Short-description">Kami dengan bangga mempersembahkan kepada Anda sebuah platform yang didedikasikan untuk memperkenalkan keindahan dan kekayaan pariwisata Indonesia. Dalam negeri ini, tersembunyi begitu banyak tujuan wisata yang menakjubkan dan mengagumkan yang menunggu untuk dieksplorasi.</d>
             </div>
 
             <a class="button" href="login.php">

@@ -14,7 +14,14 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-
+.footer-menu {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
 
 
 /* navbar */

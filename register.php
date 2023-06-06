@@ -28,7 +28,7 @@
             <div class="log-area">
                 <span class="arrow">
                     <a href="index.php"><svg xmlns="http://www.w3.org/2000/svg" height="1.5em"
-                            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            viewBox="0 0 448 512">
                             <style>
                                 svg {
                                     fill: #000000
