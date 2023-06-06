@@ -132,6 +132,8 @@
             <li>Gunung Merbabu (Yogyakarta)</li>
             <li>Gunung Kelud (Jawa Timur)</li>
             <li>Karimun Jawa (Jawa Tengah)</li>
+            <li>Telaga Warna (Jawa Tengah)</li>
+            <li>Curug Cikaso (Jawa Barat)</li>
           </ul>
         </div>
       </div>
@@ -180,6 +182,7 @@
             <li>Lembah Belim (Papua Pegunungan)</li>
             <li>Gunung Botak (Manokwari Selatan)</li>
             <li>Pantai Gedo (Papua)</li>
+            <li>Raja Ampat (Papua Barat)</li>
           </ul>
         </div>
       </div>
