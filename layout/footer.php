@@ -77,7 +77,7 @@
         <div class="footer-help">
             <h2 class="f-title ft-right">Help</h2>
             <ul>
-                <a href="">
+                <a href="faq.php">
                     <li>- FAQ</li>
                 </a>
                 <a href="tos.php">
@@ -96,6 +96,8 @@
         $file = "#heigth";
       }elseif(explode("/", $_SERVER['REQUEST_URI'])[2] == "tos.php"){
         $file = "#tos";
+      }elseif(explode("/", $_SERVER['REQUEST_URI'])[2] == "faq.php"){
+        $file = "#faq";
       }
 ?>
 

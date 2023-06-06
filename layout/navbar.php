@@ -19,6 +19,7 @@
     } else {
         $file3 = "main.php#welcome";
     }
+
 ?>
 
 <div class="navbar">
